@@ -1,0 +1,28 @@
+.image-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100;
+}
+.image-content h1 {
+    font-size: 2em;
+    font-weight: 290;
+    color:white;
+    font-family: monospace;
+
+}
+.image-content h2 {
+    font-size: 4em;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Poppins', sans-serif; 
+}
+.image-content p {
+    font-size: 1em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif; 
+}
