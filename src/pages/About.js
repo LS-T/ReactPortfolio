@@ -4,7 +4,7 @@ import Bio from "../components/Bio";
 import Hero from "../components/Hero";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Background from "../components/Background"
+import Background from "../components/Background";
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
         </div>
         <Row>
           <Col size="md-6">
-            <img id="self" src="../images/me.jpg" height="450" width="450" />
+            <img id="self" src="../images/me.jpg" height="450" width="450" alt="self" />
           </Col>
           <Col size="md-6">
             <Bio />

@@ -1,0 +1,11 @@
+.card{
+    position: relative;
+    border: 2px solid #d9b08c;
+    margin-top: 45px;
+    width: 200%;
+    height: auto;
+}
+.text {
+    margin-top:100px;
+    margin-left:250px;
+}
