@@ -6,7 +6,7 @@ function Background () {
         <div>
             <div class="background">
                 <img
-                src="images/background.png"
+                src="/images/background.png"
                 className="img-fluid"
                 />
             </div>
