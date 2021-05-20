@@ -6,11 +6,15 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Background from "../components/Background";
 
+
 function About() {
+  const image1 = "/images/background.png";
+  console.log(image1);
   return (
     <div>
       <Hero >
-        <Background/>
+        <Background
+        src= {image1}/>
       </Hero>
       <Container style={{ marginTop: 20 }}>
         <div className="post-heading text-center">
@@ -19,7 +23,7 @@ function About() {
         </div>
         <Row>
           <Col size="md-6">
-            <img id="self" src="../images/me.jpg" height="450" width="450" alt="self" style={{borderRadius:15}} />
+            <img id="self" src="./images/me.jpg" height="450" width="450" alt="self" style={{borderRadius:15}} />
           </Col>
           <Col size="md-6">
             <Bio />

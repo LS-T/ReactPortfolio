@@ -1,12 +1,14 @@
 import React from "react";
 import "./style.css";
 
-function Background () {
+function Background (props) {
+    console.log(props.src);
+    const image2 = (props.src);
     return (
         <div>
             <div class="background">
                 <img
-                src="/images/background.png"
+                src={`${process.env.PUBLIC_URL}${image2}`}
                 className="img-fluid"
                 />
             </div>
