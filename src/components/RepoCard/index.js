@@ -4,6 +4,7 @@ import Container from "../Container";
 
 function RepoCard(props) {
   const { deploy, image, name, gitHub } = props.content;
+  console.log(image)
   return (
     <Container>
       <div className="col-md-6 mt-5">
@@ -12,7 +13,7 @@ function RepoCard(props) {
             </div>
 
             <a href={deploy}>
-            <img src={image} alt={name} className="card1" />
+            <img src={`${process.env.PUBLIC_URL}${image}`}alt={name} className="card1" />
             </a>
             <a className="gitHub" href={gitHub}>
             Repo
