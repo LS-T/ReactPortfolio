@@ -1,0 +1,40 @@
+.contact{
+    align-items: center;
+    background-color: rgb(8, 8, 8) !important;
+    border-radius:10% !important;
+    margin-top:15px;
+    margin-bottom:25px;
+    
+
+}
+.contact:hover .card-icon{
+    background: transparent;
+    color:rgb(9, 160, 160);
+}
+.card-icon{
+    font-size: 28px;
+    background:rgb(9, 160, 160);
+    width:50px;
+    height:50px;
+    justify-content: center;
+    line-height: 60px  !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+body {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+
+}
+.row {
+    margin-top: 100px;
+}
+.card {
+    background: black;
+}
+.poppin {
+    color: white !important;
+}

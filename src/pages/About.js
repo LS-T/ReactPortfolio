@@ -19,7 +19,7 @@ function About() {
         </div>
         <Row>
           <Col size="md-6">
-            <img id="self" src="../images/me.jpg" height="450" width="450" alt="self" />
+            <img id="self" src="../images/me.jpg" height="450" width="450" alt="self" style={{borderRadius:15}} />
           </Col>
           <Col size="md-6">
             <Bio />

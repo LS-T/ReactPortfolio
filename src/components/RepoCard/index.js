@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./styles.css";
 import Container from "../Container";
 
 function RepoCard(props) {
@@ -12,7 +12,7 @@ function RepoCard(props) {
             </div>
 
             <a href={deploy}>
-            <img src={image} alt={name} className="card" />
+            <img src={image} alt={name} className="card1" />
             </a>
             <a className="gitHub" href={gitHub}>
             Repo
